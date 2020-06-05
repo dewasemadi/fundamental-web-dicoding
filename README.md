@@ -1,5 +1,5 @@
 # web-basic-submission-dicoding
-This is a web project for complete basic web class in dicoding.com. Actually, I build this website using html 5, CSS 3, and Javascript. 
+This is a web project for complete basic web class in dicoding.com. Actually, I build this website using html 5, CSS 3, and Javascript. Some illustration and stock images are provided by unsplash and freepik. 
 
 The website will look like below
 
