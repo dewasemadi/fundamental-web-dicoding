@@ -1,0 +1,691 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+header {
+    background-color: white;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: sticky;
+    top: 0;
+
+}
+
+
+label.logo {
+    color: black;
+    font-size: 30px;
+    line-height: 70px;
+    padding: 0 60px;
+    font-weight: 600;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+nav ul {
+    float: right;
+    margin-right: 60px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 2px;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+    background: #0066FF;
+    color: white;
+    transition: .3s;
+    border-radius: 50px;
+}
+
+.left-side>img {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 130px;
+}
+
+.right-side {
+    text-align: center;
+    color: white;
+}
+
+.right-side p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 70px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    border-radius: 50px;
+}
+
+#check {
+    display: none;
+}
+
+
+main {
+    overflow: auto;
+    padding: 20px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main2 {
+    overflow: auto;
+    padding: 20px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.main2 li {
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.content {
+    float: right;
+    width: 55%;
+}
+
+aside {
+    float: left;
+    width: 35%;
+    height: 550px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.ini-side {
+    text-align: justify;
+}
+
+.ini-side table {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #0066FF;
+    color: white;
+    padding: 35px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#background {
+    background-image: url(./assets/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+}
+
+.greeting {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 600px;
+}
+
+.greeting img {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.greeting h1,
+h3 {
+    color: white;
+}
+
+.teks {
+    text-align: center;
+}
+
+header.black {
+    position: sticky;
+    height: 70px;
+    padding: 0px 10px;
+    transition: .5s;
+    background: black;
+    top: 0px;
+}
+
+header.black label.logo {
+    height: 20px;
+    color: white;
+}
+
+header.black ul li a {
+    color: white;
+}
+
+header.black i {
+    color: white;
+}
+
+header.black a:hover {
+    color: white;
+    background: #0066FF;
+    border-radius: 50px;
+}
+
+.text {
+    border-right: 2px solid white;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY();
+}
+
+.animate {
+    animation: typewriter-text 3s steps(30) 1s 1 normal both,
+        cursor 0.5s steps(30) infinite normal;
+}
+
+@keyframes typewriter-text {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 27%;
+    }
+}
+
+@keyframes cursor {
+    0% {
+        border-right-color: white;
+    }
+
+    100% {
+        border-right-color: transparent;
+    }
+}
+
+#abilityy {
+    text-align: center;
+}
+
+.u-center {
+    display: flex;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill {
+    margin: 10px 0px;
+    width: 30em;
+}
+
+.skill h4 {
+    text-align: left;
+}
+
+.skill-type {
+    text-transform: uppercase;
+}
+
+.skill_outer-bar,
+.skill_inner-bar {
+    height: .75em;
+    border-radius: 50px;
+
+}
+
+.skill_outer-bar {
+    margin-top: 1em;
+    background: rgb(209, 209, 209);
+}
+
+.skill_inner-bar--100 {
+    width: 80%;
+    background: #0066FF;
+}
+
+.skill_inner-bar--90 {
+    width: 90%;
+    background: #0066FF;
+}
+
+.skill_inner-bar--80 {
+    width: 50%;
+    background: #0066FF;
+}
+
+.skill_inner-bar--70 {
+    width: 70%;
+    background: #0066FF;
+}
+
+.skill_inner-bar--60 {
+    width: 60%;
+    background: #0066FF;
+}
+
+.skill_inner-bar--50 {
+    width: 30%;
+    background: #0066FF;
+}
+
+
+
+.skill_inner-bar--100:hover {
+    background: rgb(0, 69, 172);
+}
+
+.skill_inner-bar--90:hover {
+    background: rgb(0, 69, 172);
+}
+
+.skill_inner-bar--80:hover {
+    background: rgb(0, 69, 172);
+}
+
+.skill_inner-bar--70:hover {
+    background: rgb(0, 69, 172);
+}
+
+.skill_inner-bar--60:hover {
+    background: rgb(0, 69, 172);
+}
+
+.skill_inner-bar--50:hover {
+    background: rgb(0, 69, 172);
+}
+
+.project-tittle {
+    text-align: center;
+    margin-top: 130px;
+    background-color: black;
+    height: 300px;
+    color: white;
+    padding: 70px;
+}
+
+.project-tittle h2 {
+    margin-top: 30px;
+}
+
+#button,
+.last-chance {
+    background-color: #0066FF;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px 30px;
+}
+
+#button:hover,
+.last-chance:hover {
+    background-color: rgb(0, 60, 151);
+    color: rgb(221, 221, 221);
+    font-weight: bold;
+}
+
+#browse {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.project1,
+.project2 {
+    display: flex;
+    max-width: 100%;
+    margin-top: 100px;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+.project1 img,
+.project2 img {
+    width: 300px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.test {
+    background-color: rgb(231, 231, 231);
+    margin-top: 100px;
+    padding: 50px 0px;
+}
+
+#testimoni {
+    text-align: center;
+}
+
+.testi {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 0px 160px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.testi1 {
+    border-radius: 20px;
+    text-align: justify;
+    background-color: white;
+    width: 300px;
+    padding: 30px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+}
+
+.img-review {
+    display: flex;
+    margin-top: 20px;
+}
+
+.img-review img {
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reviewer {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.job {
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media img {
+    width: 33px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.social-media a:hover {
+    background: none;
+    transform: translateY(-5px);
+    transition: ease-in-out .3s;
+}
+
+.me {
+    margin: 10px 0px;
+}
+
+.illustration2 img {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.middle {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.counting-sec {
+    padding: 40px 0;
+    width: 100%;
+    background: black;
+}
+
+.inner-width {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.num {
+    font-size: 40px;
+    margin: 20px 0;
+    color: #0066FF;
+}
+
+
+/*versi mobile*/
+@media screen and (max-width: 952px) {
+    label.logo {
+        font-size: 27px;
+        padding-left: 25px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    main {
+        display: block;
+        width: 94%;
+        margin: auto;
+    }
+
+    .content {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+    }
+
+    table {
+        margin: auto;
+    }
+
+    .social-media {
+        margin: auto;
+        justify-content: center;
+    }
+
+    aside {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .project1,
+    .project2 {
+        display: block;
+        width: 94%;
+        margin: auto;
+    }
+
+    .project1 img,
+    .project2 img {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .testi {
+        display: block;
+        width: 94%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .testi1 {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .animate {
+        animation: none;
+    }
+
+    .job {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 858px) {
+    .checkbtn {
+        display: block;
+        margin-right: 40px;
+    }
+
+    main {
+        width: 100%;
+        padding: 0;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #0066FF;
+        top: 70px;
+        left: 100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 17px;
+        color: white;
+    }
+
+
+    a:hover {
+        background: white;
+        color: #0066FF;
+        border-radius: 50px;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    main {
+        display: block;
+        width: 94%;
+        margin: auto;
+    }
+
+    .content {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+    }
+
+    aside {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+    }
+
+    table {
+        margin: auto;
+    }
+
+    .social-media {
+        margin: auto;
+        justify-content: center;
+    }
+
+    .project1,
+    .project2 {
+        display: block;
+        width: 94%;
+        margin: auto;
+    }
+
+    .project1 img,
+    .project2 img {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .testi {
+        display: block;
+        width: 94%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .testi1 {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .animate {
+        animation: none;
+    }
+
+    .job {
+        margin-bottom: 30px;
+    }
+}

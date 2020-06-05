@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+
+footer {
+    background-color: #0066FF;
+    color: white;
+    padding: 35px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.back-icon {
+    display: block;
+}
+
+.back-icon img {
+    width: 40px;
+}
+
+main {
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    margin: 50px auto;
+}
+
+.illustration img {
+    width: 650px;
+}
+
+.form-area {
+    background-color: white;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 620px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.form {
+    padding: 30px;
+}
+
+.form p {
+    font-size: 40px;
+}
+
+.name {
+    display: flex;
+    margin-top: 30px;
+}
+
+.name input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.first,
+.last {
+    width: 100%;
+    height: 50px;
+}
+
+.first input,
+.last input {
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+}
+
+.space {
+    padding: 10px;
+}
+
+.email {
+    margin-top: 30px;
+}
+
+.email input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    font-size: 15px;
+}
+
+.address {
+    width: 50%;
+    height: 50px;
+}
+
+.address input {
+    width: 96%;
+    height: 50px;
+    font-size: 15px;
+}
+
+.message {
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+}
+
+.message textarea {
+    width: 100%;
+    height: 200px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+
+.button {
+    width: 100%;
+    height: 230px;
+}
+
+.button button {
+    display: block;
+    color: white;
+    background-color: #0066FF;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 50px;
+    outline: none;
+    margin-top: 150px;
+}
+
+.placeholder {
+    padding: 15px;
+}
+
+button:hover {
+    background-color: rgb(0, 60, 151);
+    color: rgb(221, 221, 221);
+}
+
+@media screen and (max-width:952px) {
+    .form {
+        margin-top: 40px;
+    }
+
+    .container {
+        width: 96%;
+        max-width: 960px;
+        padding: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .illustration {
+        margin-top: 10px;
+    }
+
+    .email {
+        margin-top: 20px;
+    }
+
+    .button button {
+        width: 100%;
+        height: auto;
+    }
+
+    .illustration img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:858px) {
+    .form {
+        margin-top: 40px;
+    }
+
+    .container {
+        width: 94%;
+        max-width: 960px;
+        padding: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .illustration {
+        margin-top: 10px;
+    }
+
+    .email {
+        margin-top: 20px;
+    }
+
+    .button button {
+        width: 100%;
+        height: auto;
+    }
+
+    .illustration img {
+        width: 100%;
+        height: auto;
+    }
+}
